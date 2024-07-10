@@ -1,131 +1,533 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta charset="utf8">
-    <title>For $10/mo, I will call your phone to hold you accountable</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="typebase.css">
-    <style>
-      body {
-        max-width: 1200px;
-        display: block;
-        margin: 0px auto;
-        padding: 15px 25px;
-      }
-      .available:after {
-        display: table;
-        content: "Accepting new clients";
-      }
-      .available {
-        border: 2px solid green;
-        border-radius: 8px;
-        padding: 8px;
-        font-family: monospace;
-        background: lightgreen;
-        margin-top: 10px;
-        font-size: 12px;
-        text-transform: uppercase;
-        line-height: 8px;
-        display: inline-block;
-      }
-      .available.no {
-        border: 2px solid red;
-        background: pink;
-        color: darkred;
-      }
-      .available.no:after {
-        content: "Not accepting new clients at this time";
-      }
-      img {
-        width: 100%;
-        max-width: 100%;
-        display: block;
-        margin: 0px auto;
-      }
-      @media screen and (min-width: 600px) {
-        img {
-          float: right;
-          width: 300px;
-          margin-left: 25px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="wrapper">
-      <img src="drillsergeant.jpg">
-      <h1>For $10/month, I will call your phone daily to hold you accountable</h1>
-      <div class="available yes"></div>
-      <h2>But why?</h2>
-      <p>When we were kids, adults were always setting boundaries and keeping us on task. We thought this was annoying and relished the day when we'd grow up and get to do whatever we want. And here we are with that freedom only to find it's not that simple.</p>
-      <p>We try to stay off our phones but we keep picking it up in the bedroom costing us our sleep and making us late. We need to break through task paralysis but we end up waiting until the last minute instead.</p>
-      <p>Now we realize how privileged we were to have someone on the outside keeping us in check.</p>
-      <p>We try to solve the problem by beating ourselves up, setting up reminders, calendar events, notifications, and apps but our brains know we can just swipe away and ignore to give in to our urge to mindlessly scroll and waste time.</p>
-      <p><strong>Research shows having an actual living human being keeping us accountable makes all the difference.</strong></p>
-      <p>It's easy to let ourselves down, but harder to do that to someone else.</p>
-      <blockquote>"This service has completely transformed my productivity. Knowing someone is going to call and check in makes all the difference!" - Jane D.</blockquote>
-      <h2>How does it work?</h2>
-      <p>You and I discuss what you want to be held accountable for. <strong>For about 33¢ per day</strong>, I will personally call you on your phone once daily on as many days as you want at the time of your choosing. Each call is a minute, give or take, just enough time for me to ask if you did what you were supposed to do or are going to. If need be, I'll instruct you to text me back as a follow up. Whatever it takes to keep you accountable.</p>
-      <h2>Why a human phone call?</h2>
-      <p>Don't get me wrong, I'm a nice guy but unlike a notification, you're not paying me to put up with your lame excuses. If you can't follow through on the reminder, we'll have a discussion about that and you will have questions to answer.</p>
-      <blockquote>"I was skeptical at first, but the daily calls have kept me on track in ways I never imagined. Highly recommend!" - John S.</blockquote>
-      <h2>Examples</h2>
-      <ul>
-        <li>"At 8:30PM I want you to call me and tell me it's time to power down my phone completely."</li>
-        <li>"Remind me to take my medication every day at 9:00 AM and 9:00 PM."</li>
-        <li>"Call me at 6:00 AM to make sure I start my morning workout routine."</li>
-        <li>"Check in with me every Monday, Wednesday, and Friday to confirm I've completed my assigned readings for my online course."</li>
-        <li>"Call me at 10:00 PM to ensure I've prepared my lunch for the next day."</li>
-        <li>"Make sure I submit my weekly expense report every Friday by 3:00 PM."</li>
-        <li>"Remind me every evening at 7:00 PM to spend 30 minutes on my side project."</li>
-        <li>"Ensure I practice my musical instrument daily at 4:00 PM."</li>
-        <li>"Remind me to review my financial goals and budget every Sunday at 5:00 PM."</li>
-      </ul>
-      <h2>Signing up and terms</h2>
-      <div class="available yes"></div>
-      <p>To sign up, just send me an email about what you're looking for: <a href="mailto:cordial.dust3395@adamgrant.me">cordial.dust3395@adamgrant.me</a></p>
-      <p>Within some limitations, I can call you maximum once daily on the dates and times that you choose. I'm currently only offering this service in the US and Canada and <strong>the number of customers I can take on is limited</strong>.</p>
-      <p>Billing is month to month and you can cancel anytime for the next billed month.</p>
-      
-      <h2>FAQ</h2>
-      <h3>You're not taking on new clients! Is there a waitlist?</h3>
-      <p>Yes, email me.</p>
+<!DOCTYPE html>
+<html lang="en">
 
-      <h3>Is this a real human calling me?</h3>
-      <p>Yes, it's literally me picking up my own phone and calling you.</p>
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Arpha - Creative Portfolio Template">
+    <meta name="keywords" content="creativepersonal,personal, portfolio new, html, one page, bootstrap, new html template, design, creative, onepage, clean, modern">
+    <meta name="author" content="Tanvir Rahman Hridoy">
+    <!-- PAGE TITLE -->
+    <title>Arpha - Creative Portfolio Template</title>
+    <link rel="icon" href="assets/images/favi.png" type="image/gif" sizes="16x16">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- ALL GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet">
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    <!-- OWL CAROSEL CSS -->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/effect.css">
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-      <h3>Is it always you calling?</h3>
-      <p>For the time being, yes. I think it makes a difference that you're consistently being held accountable by the same person. In this way, we form a kind of relationship of accountability. I don't currently hire anyone else for this.</p>
-
-      <h3>Who are you?</h3>
-      <p>I'm a 38 year old program manager based in the Silicon Valley. I also run a <a href="https://www.youtube.com/@AdamGrantDotInfo">YouTube channel on ADHD at work</a> if you want to get to know me.</p>
-
-      <h3>What are you like on the phone?</h3>
-      <p>I want you to feel icky disappointing me by not following through but the conversation will always maintain a respectful tone.</p>
-      <p>That you would go so far as to pay for this service tells me this is something important to you, and that motivates me to keep you at your best.</p>
-      <p>That being said, you're paying me to do a job and that doesn't include validating your lame excuses or otherwise making you feel better about missing your goals.</p>
-
-      <h3>What if I need a break?</h3>
-      <p>The deal is that I hold you accountable, not entertain excuses. That being said, <strong>life happens</strong> and it's best that you let me know ahead of time and use the tool I'll provide for managing your subscription.</p>
-      <p>If you need a temporary pause in services, reach out ahead of time as much as possible so you don't lose your spot if other customers are waiting.</p>
-
-      <h3>Is there a free trial?</h3>
-      <p>Shoot me an email about what you're looking for and we'll make something work for you.</p>
-
-      <h3>Does it have to be a phone call?</h3>
-      <p>In addition to phone calls, I can also send text messages or emails if that works better for you. Let's discuss what fits your lifestyle best.</p>
-      
-      <h2>Privacy and Confidentiality</h2>
-      <p>Your privacy is my priority. All personal information and the details of your goals will be kept strictly confidential. I respect your trust and will ensure that our interactions remain private.</p>
+<body>
+    <!-- START PRELOADER AREA-->
+    <div id="preloader-area">
+        <div class="loader">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
     </div>
-      <!-- Google tag (gtag.js) -->
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-123ER3FN16"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+    <!-- END PRELOADER AREA -->
 
-            gtag('config', 'G-123ER3FN16');
-          </script>
-  </body>
+
+    <!-- OFF CANVAS MENU START -->
+    <div class="offcanves-menu-overlay"></div>
+    <div class="off-canvas-menu">
+        <span class="menu-close">
+            <i class="fa fa-close"></i>
+        </span>
+        <div class="menu-item-wrap">
+            <div class="menu-item-inner">
+                <ul>
+                    <li><a class="smoth-scroll" href="#home">Home</a></li>
+                    <li><a class="smoth-scroll" href="#about">About me</a></li>
+                    <li><a class="smoth-scroll" href="#work">Portfolio</a></li>
+                    <li><a class="smoth-scroll" href="#testimonial">Testimonial</a></li>
+                    <li><a class="smoth-scroll" href="#blog">blogs</a></li>
+                    <li><a class="smoth-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-bottom-section">
+            <div class="menu-social-links">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- / END OFF CANVAS MENU START -->
+
+    <!-- START HOMEPAGE DESIGN AREA -->
+    <header id="home" class="welcome-area">
+        <div class="header-top-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <!-- START LOGO DESIGN AREA -->
+                        <div class="logo">
+                            <a href="index.html">
+                                <p>I Will Hold You Accountable</p>
+                            </a>
+                        </div>
+                        <!-- END LOGO DESIGN AREA -->
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <!-- START MENU DESIGN AREA -->
+                        <div class="mainmenu-icons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <!-- END MENU DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="welcome-image-area" data-stellar-background-ratio="0.6">
+            <div id="particles-js"></div>
+            <div class="display-table">
+                <div class="display-table-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="header-text text-center">
+                                    <h2 class="cd-headline clip is-full-width">
+                                        <span class="cd-words-wrapper">
+                                            <b class="is-visible">I will call you</b>
+                                            <b>on your phone</b>
+                                            <b>for $10/month</b>
+                                        </span>
+                                    </h2>
+                                    <h3>Have a real human call you on your phone to hold you accountable for your daily goals</h3>
+                                    <div class="home-arrow-down">
+                                        <a href="#about" class="smoth-scroll btn"><i class="fa fa-angle-double-down"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- / END HOMEPAGE DESIGN AREA -->
+
+
+    <!-- START ABOUT ME DESIGN AREA  -->
+    <section id="about" class="about-me-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="about-me-right">
+                        <h4>But why?</h4>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s">We struggle to be our own disciplinarians.</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.6s">When we were kids, adults were always setting boundaries and keeping us on task. We thought this was annoying and relished the day when we'd grow up and get to do whatever we want. And here we are with that freedom only to find it's not that simple.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">We try to stay off our phones but we keep picking it up in the bedroom costing us our sleep and making us late. We need to break through task paralysis but we end up waiting until the last minute instead.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">Now we realize how privileged we were to have someone on the outside keeping us in check.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">We try to solve the problem by beating ourselves up, setting up reminders, calendar events, notifications, and apps but our brains know we can just swipe away and ignore to give in to our urge to mindlessly scroll and waste time.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s"><strong>Research shows having an actual living human being keeping us accountable makes all the difference.</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="about-me-left wow fadeInLeft" data-wow-delay="0.2s">
+                        <img src="assets/images/me.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END ABOUT ME ARE DESIGN AREA  -->
+
+    <!-- START SERVICES DESIGN AREA -->
+    <section id="service" class="service-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Why?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="service-icon">
+                            <i class="fa fa-clone"></i>
+                        </div>
+                        <div class="service-description">
+                            <h2>It just works</h2>
+                            <p>It's easy to let ourselves down, but harder to do that to someone else.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="service-icon">
+                            <i class="fa fa-building"></i>
+                        </div>
+                        <div class="service-description">
+                            <h2>Personal Touch</h2>
+                            <p>No AI or prerecorded messages here. I am literally picking up my phone and calling you.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service wow fadeInLeft" data-wow-delay="0.6s">
+                        <div class="service-icon">
+                            <i class="fa fa-pie-chart"></i>
+                        </div>
+                        <div class="service-description">
+                            <h2>No Excuses</h2>
+                            <p>You don't pay me to entertain lame excuses. I'm here to keep you thinking objectively and sticking to the goals we agreed on.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END SERVICES DESIGN AREA -->
+
+
+
+
+    <!-- START WORK DESIGN AREA -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>creative works.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="project-item">
+                        <a href="assets/images/work/1.jpg" class="work-popup">
+                            <img src="assets/images/work/1.jpg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2>Web design</h2>
+                                    <h1>Animas website</h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="project-item">
+                        <a href="https://www.youtube.com/watch?v=fhnR6DnZw7w" class="video-work">
+                            <img src="assets/images/work/2.jpg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2>Web development</h2>
+                                    <h1>Vanila Company</h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="project-item">
+                        <a href="assets/images/work/3.jpg" class="work-popup">
+                            <img src="assets/images/work/3.jpg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2>brand identity</h2>
+                                    <h1>Zeona Branding</h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="project-item">
+                        <a href="assets/images/work/4.jpg" class="work-popup">
+                            <img src="assets/images/work/4.jpg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2>graphics design</h2>
+                                    <h1>Anima Designing</h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END START WORK DESIGN AREA -->
+
+
+
+    <!-- START COMPANY DESIGN AREA -->
+    <section class="company-logo-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Clients.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="company-logo-list">
+                    <div class="single-company-logo">
+                        <img src="assets/images/company-logo/c1.png" alt="">
+                    </div>
+                    <div class="single-company-logo">
+                        <img src="assets/images/company-logo/c2.png" alt="">
+                    </div>
+                    <div class="single-company-logo">
+                        <img src="assets/images/company-logo/c3.png" alt="">
+                    </div>
+                    <div class="single-company-logo">
+                        <img src="assets/images/company-logo/c4.png" alt="">
+                    </div>
+                    <div class="single-company-logo">
+                        <img src="assets/images/company-logo/c5.png" alt="">
+                    </div>
+                    <div class="single-company-logo">
+                        <img src="assets/images/company-logo/c6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END COMPANY DESIGN AREA -->
+
+
+    <!-- START TESTIMONIAL DESIGN AREA -->
+    <section id="testimonial" class="testimonial-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Reviews!</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonial-list">
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum.</p>
+                            <h2>mark jukarbarg</h2>
+                            <h3>CEO facebook</h3>
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum.</p>
+                            <h2>mark jukarbarg</h2>
+                            <h3>CEO facebook</h3>
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum.</p>
+                            <h2>mark jukarbarg</h2>
+                            <h3>CEO facebook</h3>
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END TESTIMONIAL DESIGN AREA -->
+
+
+    <!-- START BLOG DESIGN AREA -->
+    <section id="blog" class="blog-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>latest blogs</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="blog-list">
+                        <!-- START SINGLE BLOG DESIGN AREA -->
+                        <div class="single-blog">
+                            <img src="assets/images/blog/blog1.jpg" alt="">
+                            <div class="blog-description">
+                                <h2><a href="#">we are best</a></h2>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <h5>5 february 2017</h5>
+                            </div>
+                        </div>
+                        <!-- / END SINGLE BLOG DESIGN AREA -->
+                        <!-- START SINGLE BLOG DESIGN AREA -->
+                        <div class="single-blog">
+                            <img src="assets/images/blog/blog2.jpg" alt="">
+                            <div class="blog-description">
+                                <h2><a href="#">Rock and roll</a></h2>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <h5>5 february 2017</h5>
+                            </div>
+                        </div>
+                        <!-- / END SINGLE BLOG DESIGN AREA -->
+                        <!-- START SINGLE BLOG DESIGN AREA -->
+                        <div class="single-blog">
+                            <img src="assets/images/blog/blog3.jpg" alt="">
+                            <div class="blog-description">
+                                <h2><a href="#">dhaka tour</a></h2>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <h5>5 february 2017</h5>
+                            </div>
+                        </div>
+                        <!-- / END SINGLE BLOG DESIGN AREA -->
+                        <!-- START SINGLE BLOG DESIGN AREA -->
+                        <div class="single-blog">
+                            <img src="assets/images/blog/blog1.jpg" alt="">
+                            <div class="blog-description">
+                                <h2><a href="#">dhaka tour</a></h2>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <h5>5 february 2017</h5>
+                            </div>
+                        </div>
+                        <!-- / END SINGLE BLOG DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END BLOG DESIGN AREA -->
+
+
+    <!-- START CONTACT DESIGN AREA -->
+    <section id="contact" class="contact-area section-padding" data-stellar-background-ratio="0.6">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Let’s talk</h2>
+                        <p>
+                            Say Hello. If you want to extend some info, do not hesitate to fill this form, we love to say ‘Hello Mate’.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row contact-form-design-area">
+                <!-- / END CONTACT FORM INFOMATION DESIGN AREA -->
+                <div class="col-md-8 col-md-offset-2">
+                    <!-- START CONTACT FORM DESIGN AREA -->
+                    <div class="contact-form">
+                        <form action="https://formspree.io/arfanhridoy2013@gmail.com" method="POST">
+                            <div class="col-md-6 col-sm-12">
+                                <input type="text" class="form-control" name="cf-name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <input type="text" class="form-control" name="subject" placeholder="Your Subject">
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <textarea class="form-control" rows="6" name="cf-message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- / END CONTACT FORM DESIGN AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END CONTACT DESIGN AREA -->
+
+
+
+    <!-- START FOOTER DESIGN AREA -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-text">
+                        <p>&copy;Copyright Arpha. All-Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / END CONTACT DETAILS DESIGN AREA -->
+
+
+
+    <!-- START SCROOL UP DESIGN AREA -->
+    <div class="scroll-to-up">
+        <div class="scrollup">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </div>
+    <!-- / END SCROOL UP DESIGN AREA -->
+
+
+
+    <!-- LATEST JQUERY -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- OWL CAROUSEL JS  -->
+    <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+    <!-- MAGNIFICANT JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- STEALLER JS -->
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <!-- ANIMATION JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- PARTICLE JS -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/animated-text.js"></script>
+    <!-- scripts js -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+
 </html>
