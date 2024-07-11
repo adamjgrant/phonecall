@@ -1,0 +1,57 @@
+Terms of Service
+
+1. Acceptance of Terms
+By using the services provided by iwillholdyouaccountable.com, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you must discontinue use of the service immediately.
+
+2. Service Description
+iwillholdyouaccountable.com provides personalized accountability services through phone calls, text messages, and WhatsApp communications to help clients achieve their goals. Communications occur up to once daily at a time, date, and frequency mutually agreed upon.
+
+3. Jurisdiction
+These Terms of Service are governed by and comply with the laws of the United States and the State of California. Services are provided to clients in the Americas (AMR) and Europe, Middle East, India, and Africa (EMEIA) regions.
+
+4. Age Restrictions
+Our services are intended for users who are 18 years or older. By using our services, you represent and warrant that you meet this age requirement.
+
+5. Disclaimer of Warranties
+Our service is provided on an “as is” and “as available” basis without any warranties of any kind, whether express or implied. We do not guarantee that the service will meet your requirements or that it will be uninterrupted, timely, secure, or error-free.
+
+6. Limitation of Liability
+To the maximum extent permitted by applicable law, iwillholdyouaccountable.com and its affiliates, officers, employees, agents, suppliers, or licensors shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of the service.
+
+7. Responsibility of Use
+Clients are responsible for their use of the service and any consequences arising from it. The service is intended for personal accountability purposes only and does not substitute for professional advice. Clients should seek appropriate professional advice for any legal, medical, nutritional, or other matters.
+
+8. User Conduct and Prohibited Activities
+Users agree to use the service in a lawful and respectful manner. Prohibited activities include, but are not limited to:
+
+	•	Harassment, abuse, or violence
+	•	Sharing or promoting content of a sexual nature
+	•	Engaging in illegal activities or promoting harm
+	•	Transmitting harmful or malicious code
+	•	Impersonating any person or entity
+	•	Attempting to gain unauthorized access to the service
+	•	Sharing personal information about others without consent
+
+9. Modification of Terms
+We reserve the right to modify or update these Terms of Service at any time. Users will be notified of any significant changes via the email provided at sign-up or through an announcement on our website. It is the user’s responsibility to review these Terms periodically for any updates.
+
+10. Termination of Service
+We reserve the right to terminate or suspend the service, or any part thereof, at our sole discretion, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties.
+
+11. Payment and Subscription
+Payments for the service are processed through Stripe.com. By subscribing to the service, users agree to abide by Stripe’s terms of service. Subscription fees are billed in advance on a recurring basis, as per the chosen subscription plan (e.g., monthly, annually).
+
+12. Cancellation Policy
+Users can cancel their subscription at any time by contacting us via email to receive the subscription management link. This link is also provided in the initial sign-up emails. Cancellations will take effect at the end of the current billing cycle. No refunds will be provided for partial billing periods. The mechanics of unsubscribing are managed by Stripe.com, and users are subject to Stripe’s terms for how cancellations are handled.
+
+13. Dispute Resolution
+These Terms of Service are governed by and construed in accordance with the laws of the United States and the State of California. Any disputes arising out of or relating to these Terms or the use of the service will be resolved through email communication. If a resolution cannot be reached through email, the dispute shall be settled by binding arbitration in accordance with the rules of the American Arbitration Association. The arbitration will take place in California, and the arbitrator’s decision will be binding and may be entered as a judgment in any court of competent jurisdiction.
+
+14. Intellectual Property
+All content, including phone calls, communications, and any materials provided as part of the service, are the intellectual property of iwillholdyouaccountable.com. This does not negate any privacy terms set forth, and user data will be protected as outlined in our privacy policy. Users may not reproduce, distribute, or create derivative works from any content provided by the service without explicit permission.
+
+15. Privacy and Data Protection
+Your privacy is important to us. We collect and use your personal information in accordance with our Privacy Policy. By using our service, you consent to the collection and use of your information as described in the Privacy Policy.
+
+16. Contact Information
+If you have any questions or concerns about these Terms of Service, please contact us at cordial.dust3395@adamgrant.me.
