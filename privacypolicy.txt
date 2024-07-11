@@ -6,16 +6,16 @@ iwillholdyouaccountable.com (“we,” “us,” or “our”) is committed to p
 2. Information We Collect
 We collect the following information from you when you sign up for our services:
 
-	•	Personal Information: Your name, phone number, email address, and how you prefer to be contacted.
-	•	Goal Information: The goals you want to be held accountable for and the frequency of contact.
+	-	Personal Information: Your name, phone number, email address, and how you prefer to be contacted.
+	-	Goal Information: The goals you want to be held accountable for and the frequency of contact.
 
 3. How We Use Your Information
 We use the information we collect for the following purposes:
 
-	•	To provide and manage our services
-	•	To communicate with you regarding your goals and progress
-	•	To improve our services and customer experience
-	•	To comply with legal obligations
+	-	To provide and manage our services
+	-	To communicate with you regarding your goals and progress
+	-	To improve our services and customer experience
+	-	To comply with legal obligations
 
 4. Data Storage and Security
 We use third-party services, such as Airtable, Google Voice, and Otter.ai, to store and manage your data. These services apply strict security measures to protect your information. We do not share your data publicly without your explicit consent.

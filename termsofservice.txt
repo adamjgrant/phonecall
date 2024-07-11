@@ -24,13 +24,13 @@ Clients are responsible for their use of the service and any consequences arisin
 8. User Conduct and Prohibited Activities
 Users agree to use the service in a lawful and respectful manner. Prohibited activities include, but are not limited to:
 
-	•	Harassment, abuse, or violence
-	•	Sharing or promoting content of a sexual nature
-	•	Engaging in illegal activities or promoting harm
-	•	Transmitting harmful or malicious code
-	•	Impersonating any person or entity
-	•	Attempting to gain unauthorized access to the service
-	•	Sharing personal information about others without consent
+	-	Harassment, abuse, or violence
+	-	Sharing or promoting content of a sexual nature
+	-	Engaging in illegal activities or promoting harm
+	-	Transmitting harmful or malicious code
+	-	Impersonating any person or entity
+	-	Attempting to gain unauthorized access to the service
+	-	Sharing personal information about others without consent
 
 9. Modification of Terms
 We reserve the right to modify or update these Terms of Service at any time. Users will be notified of any significant changes via the email provided at sign-up or through an announcement on our website. It is the user’s responsibility to review these Terms periodically for any updates.
