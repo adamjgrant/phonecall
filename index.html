@@ -122,7 +122,7 @@
                                             <b>accountable</b>
                                         </span>
                                     </h2>
-                                    <h3>Have a real human call you on your phone to hold you accountable for your daily goals</h3>
+                                    <h3>For <span class="crossout">$</span><span class="crossout" data-bind="todays_rate.cross_out_price">...</span> $<span data-bind="todays_rate.price">...</span> <span data-bind="todays_rate.when_paid_language">...</span>, I will personally call you to hold<wbr> you accountable for your&nbsp;goals</h3>
                                     <div class="home-arrow-down">
                                         <a href="#about" class="smoth-scroll btn"><i class="fa fa-angle-double-down"></i></a>
                                     </div>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="col-md-5">
                     <div class="about-me-left wow fadeInLeft" data-wow-delay="0.2s">
-                        <img src="assets/images/me.jpg" alt="">
+                        <img src="assets/images/guyatdesk.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@
               <div class="col-md-4 col-sm-6">
                   <div class="single-service wow fadeInLeft" data-wow-delay="0.2s">
                       <div class="service-icon">
-                          <i class="fa fa-clone"></i>
+                          <i class="fa fa-thumbs-up"></i>
                       </div>
                       <div class="service-description">
                           <h2>It just works</h2>
@@ -190,7 +190,7 @@
               <div class="col-md-4 col-sm-6">
                   <div class="single-service wow fadeInLeft" data-wow-delay="0.4s">
                       <div class="service-icon">
-                          <i class="fa fa-building"></i>
+                          <i class="fa fa-user"></i>
                       </div>
                       <div class="service-description">
                           <h2>Personal Touch</h2>
@@ -203,7 +203,7 @@
               <div class="col-md-4 col-sm-6">
                   <div class="single-service wow fadeInLeft" data-wow-delay="0.6s">
                       <div class="service-icon">
-                          <i class="fa fa-pie-chart"></i>
+                          <i class="fa fa-phone"></i>
                       </div>
                       <div class="service-description">
                           <h2>No Excuses</h2>
@@ -222,16 +222,16 @@
       <div class="container">
           <div class="row">
               <div class="col-sm-12">
-                  <div class="section-title">
+                  <div class="section-title left-aligned">
                       <h2>How does it work?</h2>
-                      <p>You and I discuss what you want to be held accountable for. <strong>For about 33¢ per day</strong>, You choose which days you want me to personally call you on your phone maximum once daily.</p>
+                      <p>You and I discuss what you want to be held accountable for. <strong>for just <span class="crossout">$</span><span class="crossout" data-bind="todays_rate.cross_out_price">...</span> $<span data-bind="todays_rate.price">...</span> <span data-bind="todays_rate.when_paid_language">...</span></strong>, You choose which days you want me to personally call you on your phone maximum once daily.</p>
                       <p>Each call is a minute, give or take, just enough time for me to ask if you did what you were supposed to do or are going to. If need be, I'll instruct you to text me back as a follow up. Whatever it takes to keep you accountable.</p>
                       <h3>Why a human phone call?</h2>
                       <p>Don't get me wrong, I'm a nice guy but unlike a notification, you're not paying me to put up with your lame excuses. If you can't follow through on the reminder, we'll have a discussion about that and you will have questions to answer.</p>
                   </div>
               </div>
               <div class="col-sm-12">
-                  <div class="section-title">
+                  <div class="section-title left-aligned">
                     <a class="button" href="https://airtable.com/app3zPfsvP1pKIAWe/pagzWGkplsGOxUI8X/form">Get Started</a>
                   </div>
               </div>
@@ -291,7 +291,7 @@
               <div class="col-md-4 col-sm-6">
                   <div class="single-service wow fadeInLeft" data-wow-delay="0.2s">
                       <div class="service-icon">
-                          <i class="fa fa-clone"></i>
+                          <i class="fa fa-bicycle"></i>
                       </div>
                       <div class="service-description">
                           <h2>Fitness</h2>
@@ -304,7 +304,7 @@
               <div class="col-md-4 col-sm-6">
                   <div class="single-service wow fadeInLeft" data-wow-delay="0.4s">
                       <div class="service-icon">
-                          <i class="fa fa-building"></i>
+                          <i class="fa fa-heart-o"></i>
                       </div>
                       <div class="service-description">
                           <h2>Wellness</h2>
@@ -654,6 +654,30 @@
 
             gtag('config', 'G-123ER3FN16');
           </script>
+    <script>
+      const todays_rate = {
+        cross_out_price: "25",
+        price: "10",
+        when_paid_language: "per month",
+        // when_paid_language: "per month paying annually",
+        promo: "until Jul 31"
+      }
+
+      // Function to update span elements
+      function updateSpans(data) {
+        for (const key in data) {
+          if (data.hasOwnProperty(key)) {
+            const spans = document.querySelectorAll(`span[data-bind="todays_rate.${key}"]`);
+            spans.forEach(span => {
+              span.textContent = data[key];
+            });
+          }
+        }
+      }
+
+      // Call the function to update the spans
+      updateSpans(todays_rate);
+    </script>
 </body>
 
 </html>
