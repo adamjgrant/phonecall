@@ -932,7 +932,8 @@ ul.about-service li {
     box-shadow: none;
 }
 
-.contact-form button {
+.contact-form button,
+.button {
     display: inline-block;
     color: #fff;
     padding: 15px 35px;
@@ -945,7 +946,8 @@ ul.about-service li {
     margin-bottom: 0;
 }
 
-.contact-form button:hover {
+.contact-form button:hover,
+.button:hover {
     background: #f1f1f1;
     color: #000;
     border: 1px solid #f1f1f1;
